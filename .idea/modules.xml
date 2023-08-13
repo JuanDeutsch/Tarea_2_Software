@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/comportamentalThemplateMethod/comportamentalThemplateMethod.iml" filepath="$PROJECT_DIR$/comportamentalThemplateMethod/comportamentalThemplateMethod.iml" />
       <module fileurl="file://$PROJECT_DIR$/creacionalBuilder/creacionalBuilder.iml" filepath="$PROJECT_DIR$/creacionalBuilder/creacionalBuilder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/estructuralAdapter/estructuralAdapter.iml" filepath="$PROJECT_DIR$/estructuralAdapter/estructuralAdapter.iml" />
       <module fileurl="file://$PROJECT_DIR$/tareaPatronesDiseno.iml" filepath="$PROJECT_DIR$/tareaPatronesDiseno.iml" />
     </modules>
   </component>
