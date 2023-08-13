@@ -1,6 +1,6 @@
-package ingredientes;
+package ingrediente;
 
-public class Cebolla implements Iingredientes {
+public class Aceitunas implements Iingredientes {
 
     @Override
     public void cantidad() {
@@ -11,4 +11,5 @@ public class Cebolla implements Iingredientes {
     public void precio(double precio) {
 
     }
+
 }

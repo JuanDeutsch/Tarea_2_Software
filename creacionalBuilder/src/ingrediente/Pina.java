@@ -1,6 +1,6 @@
-package ingredientes;
+package ingrediente;
 
-public class Jamon implements Iingredientes {
+public class Pina implements Iingredientes {
 
     @Override
     public void cantidad() {

@@ -1,6 +1,6 @@
-package ingredientes;
+package ingrediente;
 
-public class Pepperoni implements Iingredientes {
+public class Cebolla implements Iingredientes {
 
     @Override
     public void cantidad() {
