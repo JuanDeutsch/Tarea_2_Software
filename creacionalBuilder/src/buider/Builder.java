@@ -1,6 +1,6 @@
-package buiders;
+package buider;
 
-import ingredientes.*;
+import ingrediente.*;
 
 public interface Builder {
 
