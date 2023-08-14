@@ -1,14 +1,12 @@
 package ingrediente;
 
-public class Pina implements Iingredientes {
+public class Pina implements Iingrediente {
 
-    @Override
-    public void cantidad() {
+    String nombre ="Pina";
 
-    }
+    Double precio = 0.30;
 
-    @Override
-    public void precio(double precio) {
+    public Pina() {
 
     }
 }

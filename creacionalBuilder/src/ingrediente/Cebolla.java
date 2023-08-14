@@ -1,14 +1,12 @@
 package ingrediente;
 
-public class Cebolla implements Iingredientes {
+public class Cebolla implements Iingrediente {
 
-    @Override
-    public void cantidad() {
+    String nombre ="Cebolla";
 
-    }
+    Double precio = 0.30;
 
-    @Override
-    public void precio(double precio) {
+    public Cebolla() {
 
     }
 }

@@ -1,14 +1,12 @@
 package ingrediente;
 
-public class Jamon implements Iingredientes {
+public class Jamon implements Iingrediente {
 
-    @Override
-    public void cantidad() {
+    String nombre ="Jamon";
 
-    }
+    Double precio = 0.30;
 
-    @Override
-    public void precio(double precio) {
+    public Jamon() {
 
     }
 }
