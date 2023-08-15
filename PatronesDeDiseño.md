@@ -7,7 +7,13 @@ Nicolas Wilches
 
 # 1. Comportamiento: Template Method
 
-(Aqui va lo tuyo santi)
+El primer problema nos presenta la necesidad de creación de múltiples objetos que operen bajo
+una plantilla o clase abstracta, dicha plantilla debe de contar con métodos abstractos los
+cuales obligatoriamente deben de ser implementados por las subclases y además puede contar
+con pasos opcionales, lo que convierte a Template Method la mejor opción a elegir en cuanto
+a patrón de diseño para el caso actual.
+
+### Diagrama de clases:
 
 # 2. Estructural: Adapter
 
@@ -15,7 +21,9 @@ Nicolas Wilches
 
 # 3. Creacional: Builder
 
-Para este problema se identifico que de los patrones de diseño, se tenia que usar el de tipo creacional y de este el caso de builder, esto porque se tenia que crear un producto complejo paso a paso, la solucion builder permitia solucional el problema de una manera mas sencilla.
+Para este problema se identificó que de los patrones de diseño, se tenia que usar el de tipo
+creacional y de este el caso de builder, esto porque se tenía que crear un producto complejo
+paso a paso, la solución builder permitia solucionar el problema de una manera mas sencilla.
 
-Diagrama de clases:
+### Diagrama de clases:
 ![Clase UML](https://github.com/JuanDeutsch/Tarea_2_Software/assets/87861322/59500913-57e2-4c44-8277-bb27ca7362aa)
