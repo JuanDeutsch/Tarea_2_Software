@@ -2,9 +2,9 @@ package ingrediente;
 
 public interface Iingrediente {
 
-    public String nombre = "";
+    String nombre = "";
 
-    public Double precio = 0.0;
+    Double precio = 0.0;
 
 
 }
