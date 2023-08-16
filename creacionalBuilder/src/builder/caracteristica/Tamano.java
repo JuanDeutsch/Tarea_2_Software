@@ -1,10 +1,8 @@
-package buider.caracteristica;
+package builder.caracteristica;
 
 public class Tamano {
 
     public String tamano;
-    public Double precio;
-
 
     public Tamano(String tamano) {
         this.tamano = tamano;
@@ -19,9 +17,9 @@ public class Tamano {
         };
     }
 
-    public Double Precio() {
+    public Double precioTamano() {
         double precio = 0.0;
-        if ("Pequeño".equals(tamano)){
+        if ("Pequeño".equals(tamano)) {
             precio = 3.50;
         } else if ("Mediana".equals(tamano)) {
             precio = 6.50;
@@ -29,12 +27,6 @@ public class Tamano {
             precio = 9.50;
         }
         return precio;
-    }
-
-    public static void main(String[] args) {
-        Tamano tamano = new Tamano("Mediana");
-        System.out.println(tamano.getTamano());
-        System.out.println(tamano.Precio());
     }
 
 }

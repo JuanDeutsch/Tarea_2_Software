@@ -4,7 +4,5 @@ public interface Iingrediente {
 
     String nombre = "";
 
-    Double precio = 0.0;
-
-
+    Double precioIngr ();
 }
