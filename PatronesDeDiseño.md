@@ -26,4 +26,5 @@ creacional y de este el caso de builder, esto porque se tenía que crear un prod
 paso a paso, la solución builder permitia solucionar el problema de una manera mas sencilla.
 
 ### Diagrama de clases:
-![Clase UML](https://github.com/JuanDeutsch/Tarea_2_Software/assets/87861322/59500913-57e2-4c44-8277-bb27ca7362aa)
+![Clase UML (1)](https://github.com/JuanDeutsch/Tarea_2_Software/assets/87861322/726b7cea-4da8-4528-bfa7-c4c963c31dd8)
+
