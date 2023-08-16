@@ -1,4 +1,4 @@
-package buider.caracteristica;
+package builder.caracteristica;
 
 public class Masa {
 
@@ -17,9 +17,16 @@ public class Masa {
         };
     }
 
-    public static void main(String[] args) {
-        Masa masa = new Masa("Integral");
-        System.out.println(masa.getMasa());
+    public Double precioMasa() {
+        double precio = 0.0;
+        if ("Integral".equals(masa)) {
+            precio = 2.60;
+        } else if ("Delgada".equals(masa)) {
+            precio = 3.10;
+        } else if ("Gruesa".equals(masa)) {
+            precio = 5.90;
+        }
+        return precio;
     }
 
 }
