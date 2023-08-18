@@ -1,11 +1,16 @@
-public class Food extends CrearOrden {
+package comida;
+
+import procesamiento.TemplateOrden;
+
+public class Food extends TemplateOrden {
+    int inventarioComida;
     @Override
     public void verificarInventario(int inventario, String producto) {
-
+        this.inventarioComida = inventario;
     }
 
     @Override
-    public void facturar(int precioProducto, int precioEnvio) {
+    public void facturar() {
 
     }
 
@@ -16,12 +21,7 @@ public class Food extends CrearOrden {
 
     @Override
     public boolean envioPrioritario(boolean isFood) {
-        return false;
-    }
-
-    @Override
-    public boolean embalajeSeguro(boolean isTech) {
-        return false;
+        return true;
     }
 
 }

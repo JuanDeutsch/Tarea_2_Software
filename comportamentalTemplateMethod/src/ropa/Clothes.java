@@ -1,11 +1,15 @@
-public class Clothes extends CrearOrden {
+package ropa;
+
+import procesamiento.TemplateOrden;
+
+public class Clothes extends TemplateOrden {
     @Override
     public void verificarInventario(int inventario, String producto) {
 
     }
 
     @Override
-    public void facturar(int precioProducto, int precioEnvio) {
+    public void facturar() {
 
     }
 
