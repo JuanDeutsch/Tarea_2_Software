@@ -4,7 +4,7 @@ import procesamiento.TemplateOrden;
 
 public class Electronic extends TemplateOrden {
     @Override
-    public void verificarInventario(int inventario, String producto) {
+    public void verificarInventario() {
         // Verificación de inventario de productos
     }
 
@@ -14,7 +14,7 @@ public class Electronic extends TemplateOrden {
     }
 
     @Override
-    public void notificarCliente(String notificación) {
+    public void notificarCliente() {
         //Notificacion a cliente
     }
 

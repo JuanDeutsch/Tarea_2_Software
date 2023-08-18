@@ -5,8 +5,7 @@ import procesamiento.TemplateOrden;
 public class Food extends TemplateOrden {
     int inventarioComida;
     @Override
-    public void verificarInventario(int inventario, String producto) {
-        this.inventarioComida = inventario;
+    public void verificarInventario() {
     }
 
     @Override
@@ -15,7 +14,7 @@ public class Food extends TemplateOrden {
     }
 
     @Override
-    public void notificarCliente(String notificación) {
+    public void notificarCliente() {
 
     }
 

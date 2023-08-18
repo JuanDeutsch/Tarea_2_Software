@@ -6,13 +6,16 @@ public abstract class TemplateOrden {
 
     public final void nuevoPedido(String producto) {
         Producto = producto;
+        verificarInventario();
+        facturar();
+        notificarCliente();
     }
 
-    public abstract void verificarInventario(int inventario, String producto);
+    public abstract void verificarInventario();
 
     public abstract void facturar();
 
-    public abstract void notificarCliente(String notificación);
+    public abstract void notificarCliente();
 
     public boolean envioPrioritario(boolean isFood){
         return isFood;
