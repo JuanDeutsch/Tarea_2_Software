@@ -14,6 +14,8 @@ con pasos opcionales, lo que convierte a Template Method la mejor opción a eleg
 a patrón de diseño para el caso actual.
 
 ### Diagrama de clases:
+![Template Method](https://github.com/JuanDeutsch/Tarea_2_Software/assets/128516506/43d06842-1724-40b1-8f42-c2e1c7aea07e)
+
 
 # 2. Estructural: Adapter
 
