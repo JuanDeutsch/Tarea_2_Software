@@ -16,6 +16,6 @@ public class Facturar {
         return valorTotal;
     }
     public void impresionFactura() {
-        System.out.println("Hola " + cliente + " ,tu factura número " + idFactura + " tiene un costo de "+valorTotal);
+        System.out.println("Hola, " + cliente.getNombre() + " ,tu factura número " + idFactura + " tiene un costo de "+valorTotal);
     }
 }
