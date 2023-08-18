@@ -17,7 +17,13 @@ a patrón de diseño para el caso actual.
 
 # 2. Estructural: Adapter
 
-(Aqui va lo tuyo viejo Wilches)
+Para este problema se determino utilizar el patron de diseño Adapter ya que este solucionaba de manera efectiva el problema presentado de la incompatibilidad de un nuevo sistema de pago Online a nuestra estructura de pagos general, por loq ue la creaccion de un adaptador era crucial para la solucion de este problema.
+
+### Diagrama de clases:
+
+![UML Adapter.png](..%2F..%2FDownloads%2FUML%20Adapter.png)
+
+
 
 # 3. Creacional: Builder
 
